@@ -1,12 +1,12 @@
-import React from 'react'
-import Link from 'next/link'
+import Hero from '@/components/Hero'
+import Info from '@/components/Info'
 
 const HomePage = () => {
   return (
-    <div>
-        <h2 className='text-3xl'>Welcome</h2>
-        <Link href='/properties'>show properties</Link>
-    </div>
+    <>
+        <Hero />
+        <Info />
+    </>
   )
 }
 
